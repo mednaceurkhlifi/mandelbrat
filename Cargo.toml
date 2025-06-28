@@ -1,0 +1,12 @@
+[package]
+name = "mandelbrot"
+version = "0.1.0"
+description = "Mandelbrot set visualization"
+authors = ["mednaceurkhlifi <mohamednaceur.khlifi@esprit.tn>"]
+license = "MIT"
+edition = "2024"
+
+[dependencies]
+crossterm = "0.28.1"
+ratatui = "0.29.0"
+color-eyre = "0.6.3"
